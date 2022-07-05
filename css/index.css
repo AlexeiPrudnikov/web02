@@ -1,19 +1,20 @@
-* {
-	background-color: #fffbb6;
-	font: Arial;
+body {
+	font-family: sans-serif;
 	font-size: 20px;
+	background-color: #f2e8c9;
 }
 h1{
 	font-size: 36px;
+	text-align: center;
 }
 table {
 	width: 100%;
 	margin-bottom: 20px;
-	border: 2px solid #dddddd;
+	border: 1px solid #000000;
 	border-collapse: collapse; 
 }
 td, th{
-	border: 2px solid #dddddd;
+	border: 1px solid #000000;
 	border-collapse: collapse; 
 }
 td.name, th.name
@@ -25,4 +26,10 @@ td.descr, th.descr
 {
 	width: 80%;
 	text-align: justify;
+}
+img.preview {
+	width: 200px;
+}
+dt{
+	font-weight: bolder;
 }
