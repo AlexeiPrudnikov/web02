@@ -1,0 +1,28 @@
+* {
+	background-color: #fffbb6;
+	font: Arial;
+	font-size: 20px;
+}
+h1{
+	font-size: 36px;
+}
+table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 2px solid #dddddd;
+	border-collapse: collapse; 
+}
+td, th{
+	border: 2px solid #dddddd;
+	border-collapse: collapse; 
+}
+td.name, th.name
+{
+	width: 20%;
+	text-align: center;
+}
+td.descr, th.descr
+{
+	width: 80%;
+	text-align: justify;
+}
